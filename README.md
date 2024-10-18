@@ -52,4 +52,18 @@ sudo curl -L -o /etc/yum.repos.d/hashicorp.repo https://rpm.releases.hashicorp.c
 ```text
 sudo yum -y install terraform
 ```
+#### run terraform initialize
+```text
+git pull
+cd roboshop-v1/
+terraform init
+```
+#### run terraform plan, will show what it is planning to run
+```text
+terraform plan
+```
+#### apply terraform, will apply terraform code to create instance
+```text
+terraform apply
+```
 
