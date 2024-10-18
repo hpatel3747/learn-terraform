@@ -39,4 +39,10 @@ resource "abc" xyz {
 
 terraform files written as .tf
 ```
+### how to run terraform code
 
+
+### Install terraform on workstation
+```text
+
+```
