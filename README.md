@@ -26,9 +26,9 @@ $ aws ec2 describe-instances
 you should see the output
 now workstation is ready to execute terraform code to provision infrastructure
 note that any user login to workstation can do the infra provision, so maintain security of this workstation
-``` 
-###Hashicoprp
-- HCL - hashicorp configuration language
+```
+### Hashicoprp
+- HCL - hashicorp configuration language, provided by hashicorp
 - written in blocks, e.g resource, variable, output, data, local, module, provider
 e.g
 ```text
