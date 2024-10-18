@@ -36,4 +36,7 @@ resource "abc" xyz {
     x = 10
     y = 20
 }
+
+terraform files written as .tf
 ```
+
