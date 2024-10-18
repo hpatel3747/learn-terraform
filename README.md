@@ -1,7 +1,8 @@
 ## learn-terraform
 ```text
+IaC - infrastructure as code developed by Hashicorp
 Another iac tool is pullime
-terraform acquired by IBM
+terraform now acquired by IBM
 there are guys in the selling terraform code e.g OpenTofu, gruntwork
 Devlopment takes time but deploying in prod is much faster
 ```
