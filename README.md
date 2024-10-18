@@ -10,3 +10,4 @@ Devlopment takes time but deploying in prod is much faster
 1. Any change in OS should be done through Ansible
 2. Any infra creation should be done through Terraform
 ```
+ 
