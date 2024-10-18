@@ -43,6 +43,13 @@ terraform files written as .tf
 
 
 ### Install terraform on workstation
-```text
 
+#### add hashicorp repo
+```text
+sudo curl -L -o /etc/yum.repos.d/hashicorp.repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
 ```
+#### install terraform
+```text
+sudo yum -y install terraform
+```
+
