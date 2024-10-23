@@ -71,5 +71,12 @@ output "trainer_name" {
   value = var.trainer_name
 }
 
+variable "testV" {
+  default = "test test"
+}
+
+output "test" {
+  value = var.testV
+}
 
 
