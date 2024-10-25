@@ -22,3 +22,10 @@ prod-destroy:
 	rm -rf .terraform
 	terraform init -backend-config=env-prod/state.tfvars
 	terraform destroy -auto-approve -var-file=env-prod/main.tfvars
+
+# to run the makefile
+# make action=apply env=dev
+#OR e.g
+# make dev-apply
+# make prod-apply
+# make prod-destroy
