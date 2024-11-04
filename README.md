@@ -66,4 +66,8 @@ terraform plan
 ```text
 terraform apply
 ```
+#### conditions in terraform
+1. condition ? true_val : false_val
+2. 
+
 
