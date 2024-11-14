@@ -1,3 +1,3 @@
-bucket = "terraform-d80"
+bucket = "hptldevops-state"
 key    = "sample/dev/terraform.tfstate"
-region = "us-east-1"
+region = "us-east-2"
