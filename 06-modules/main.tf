@@ -5,6 +5,7 @@
 #   ]
 # }
 
+# this code will create one EC2 instance named docker and make DNS entry
 variable "instances" {
   default = [
     "docker",
