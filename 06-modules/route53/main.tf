@@ -1,5 +1,5 @@
 resource "aws_route53_record" "record" {
-  zone_id = "Z02249652EM5BAO495DZ1"
+  zone_id = "Z034492616CL1VL5T8KC8"
   name    = "${var.instance_name}-dev.hptldevops.online"
   type    = "A"
   ttl     = "30"
