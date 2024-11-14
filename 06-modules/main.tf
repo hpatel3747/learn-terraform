@@ -1,10 +1,15 @@
+# variable "instances" {
+#   default = [
+#     "test1",
+#     "test2"
+#   ]
+# }
+
 variable "instances" {
   default = [
-    "test1",
-    "test2"
-  ]
+    "docker",
+      ]
 }
-
 
 module "ec2" {
   count = length(var.instances)
