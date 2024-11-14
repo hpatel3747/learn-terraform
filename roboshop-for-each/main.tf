@@ -17,7 +17,7 @@ resource "aws_instance" "instance" {
   for_each = var.instances
   ami           = "ami-09c813fb71547fc4f"
   instance_type = "t3.small"
-  vpc_security_group_ids = ["sg-0be95cb0c3fef9448"]
+  vpc_security_group_ids = ["sg-06f2d2482af60d937"]
   tags = {
     Name = each.key
   }
@@ -25,7 +25,7 @@ resource "aws_instance" "instance" {
 
 resource "aws_route53_record" "record" {
   for_each = var.instances
-  zone_id = "Z02249652EM5BAO495DZ1"
+  zone_id = "Z034492616CL1VL5T8KC8"
   name    = "${each.key}-dev.hptldevops.online"
   type    = "A"
   ttl     = "30"
