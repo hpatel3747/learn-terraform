@@ -1,4 +1,4 @@
-# enable this variable to deploy multiple ec2 instances with assiciated dns entries
+# enable this variable to deploy multiple ec2 instances with dns entries
 # variable "instances" {
 #   default = [
 #     "test1",
