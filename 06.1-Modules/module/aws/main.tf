@@ -9,3 +9,10 @@ resource "aws_vpc" "hptl-vpc-01" {
   }
 }
 
+resource "aws_internet_gateway" "hptl-gw" {
+  vpc_id = aws_vpc.hptl-vpc-01.id
+
+  tags = {
+    Name = "hptl-gw"
+  }
+}
