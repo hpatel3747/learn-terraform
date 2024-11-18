@@ -1,3 +1,4 @@
+#data sources fetch values from the cloud provider
 resource "aws_instance" "test" {
   ami           = data.aws_ami.ami.id
   instance_type = "t3.small"
