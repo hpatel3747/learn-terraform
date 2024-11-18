@@ -16,4 +16,5 @@ data "aws_ami" "ami" {
 
 data "aws_security_group" "sg" {
   name = "default"
+  id = "sg-06f2d2482af60d937"
 }
